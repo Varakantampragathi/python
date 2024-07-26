@@ -1,0 +1,9 @@
+def check(s):                            output:['college', 'engineering', 'devi', 'sri']
+    s=s.split()                                 egelloc gnireenigne ived irs   
+    s=list(reversed(s))
+    print(s)
+    for i in s:
+        rev=i[::-1]
+        print(rev,end=' ')
+s='sri devi engineering college'
+check(s)

@@ -1,0 +1,6 @@
+def num(n):                                         input: 13
+    if n%2==0:                                     output:odd
+        return"even"
+    else:
+        return"odd"
+print(num(13))

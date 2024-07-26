@@ -1,0 +1,8 @@
+s='123ABC$'                                                input:123ABC$
+count=0                                                    output:4
+for i in s:
+    if(not(i.isdigit())):
+        count+=1
+print(count)
+
+

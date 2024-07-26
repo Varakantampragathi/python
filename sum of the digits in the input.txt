@@ -1,0 +1,7 @@
+s=input()                                                    input:12345678
+sum=0                                                       output:36
+for i in range(0,len(s)):
+    if s[i].isdigit():
+        sum+=int(s[i])
+print(sum)
+

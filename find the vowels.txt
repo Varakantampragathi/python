@@ -1,0 +1,9 @@
+
+s='sarani'                                input :sarani
+vowels=['a','e','i','o','u']              output:3
+count=0
+for c in s:
+    if c in vowels:
+        count+=1
+print(count)
+

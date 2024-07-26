@@ -1,0 +1,7 @@
+def greetings(branch):                                      hello good morning ece
+    print("hello good morning",branch)                      hello good morning it
+greetings('cse')
+greetings('ece')
+greetings('it')
+
+

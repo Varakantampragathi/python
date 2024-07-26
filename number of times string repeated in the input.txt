@@ -1,0 +1,5 @@
+s="he is playing football but he is not playing cricket" 
+s=s.split()                                                   input: he is playing football but he is not playing cricket
+print(s.count('playing'))                                     output:2
+print(s.count('he'))                                                 2
+

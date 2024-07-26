@@ -1,0 +1,6 @@
+data=[1,8,'apple','carrot','mango']                           input:
+fruits=['apple','mango','orange','watermelon']               output:1
+for i in data:                                                      8
+    if i not in fruits:                                             carrot
+        print(i)
+
