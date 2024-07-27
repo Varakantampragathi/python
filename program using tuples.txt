@@ -1,0 +1,5 @@
+
+  student=(101,'sarani','cse','hyderabad')
+student=list(student)
+student[2]='ece'
+print(student

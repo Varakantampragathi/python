@@ -1,0 +1,6 @@
+
+ student=(101,'sarani','cse','hyderabad')
+student=list(student)
+student.append('hyd')
+print(student)
+

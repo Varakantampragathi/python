@@ -1,0 +1,10 @@
+insert:
+
+friends=['vennela','keerthi','yashu']
+friends.insert(2,'beulah')
+print(friends)
+
+remove:
+friends=['vennela','keerthi','yashu']
+friends.remove('keerthi')
+print(friends)

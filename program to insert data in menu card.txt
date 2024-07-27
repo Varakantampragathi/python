@@ -1,0 +1,9 @@
+
+menu={
+      'chicken_biryani':599,
+      'butter_chiken':450,
+      'juicy_mandi':688,
+      'tandoori_chicken':798
+      }
+menu['fruit_salad']=400
+print(menu)
