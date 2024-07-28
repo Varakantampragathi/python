@@ -1,0 +1,32 @@
+
+from abc import ABC
+
+class vehicle(ABC):
+    def speed():
+        pass
+    def milage():
+        pass
+    def model():
+        pass
+    def breaks():
+        print('stop the vehicle')
+        
+class RangeRover(vehicle):
+    def speed():
+        print('450 max speed')
+    def milage():
+        print('250kmp')
+    def model():
+        print('new model')
+class fortuner(vehicle):
+       def speed():
+           print('380 max speed')
+       def milage():
+           print('160kmp')
+       def model():
+           print('legender')
+rr=RangeRover
+rr.speed()
+fr=fortuner
+fr.milage()
+
