@@ -1,0 +1,11 @@
+a->1
+p->16
+p->16
+1->12
+e->5
+
+WITH FUNCTION
+
+s='apple'
+s=sorted(s)
+print(' '.join(s))
