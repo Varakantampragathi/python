@@ -1,0 +1,17 @@
+
+n1=7823
+n2=5489
+n3=1384
+def check(n):
+    s=str(n)
+    min=int(s[0])
+    max=int(s[0])
+    for i in s:
+        if int(i)<min:
+            min=int(i)
+        if int(i)>max:
+            max=int(i)
+    print(min,max)
+check(n1)
+check(n2)
+check(n3)
